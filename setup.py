@@ -20,7 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "py_node=udemy_ros_intro_pkg_1.my_first_node:main"
+            # executable = package.file_name:main
+            "py_node=udemy_ros_intro_pkg_1.my_first_node:main",
+            "robot_news_station=udemy_ros_intro_pkg_1.robot_news_station:main",
+            "smartphone=udemy_ros_intro_pkg_1.smartphone:main"
         ],
     },
 )
