@@ -23,7 +23,8 @@ setup(
             # executable = package.file_name:main
             "py_node=udemy_ros_intro_pkg_1.my_first_node:main",
             "robot_news_station=udemy_ros_intro_pkg_1.robot_news_station:main",
-            "smartphone=udemy_ros_intro_pkg_1.smartphone:main"
+            "smartphone=udemy_ros_intro_pkg_1.smartphone:main",
+            "hw_status_publisher=udemy_ros_intro_pkg_1.hw_status_publisher:main"
         ],
     },
 )
